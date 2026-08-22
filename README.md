@@ -246,4 +246,4 @@ These are real production lessons discovered while running live:
 
 ## License
 
-MIT
+Apache License 2.0 — see [LICENSE](LICENSE). Built for WeMakeDevs "Into the Scrape-Verse" Hackathon 2026.

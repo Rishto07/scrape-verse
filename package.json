@@ -1,0 +1,24 @@
+{
+  "name": "scrape-verse",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:orchestrator": "npm run dev --workspace=packages/orchestrator",
+    "dev:dashboard": "npm run dev --workspace=packages/dashboard",
+    "dev": "concurrently \"npm run dev:orchestrator\" \"npm run dev:dashboard\"",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@10.8.2"
+}

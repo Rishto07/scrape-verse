@@ -1,0 +1,32 @@
+{
+  "name": "@scrape-verse/orchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run",
+    "db:init": "tsx src/db/init.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "groq-sdk": "^0.5.0",
+    "node-cron": "^3.0.3",
+    "socket.io": "^4.7.5",
+    "sql.js": "^1.10.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/node-cron": "^3.0.11",
+    "eslint": "^10.9.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^1.5.0"
+  }
+}

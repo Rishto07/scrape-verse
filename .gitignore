@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment secrets — NEVER commit real API keys
+.env
+.env.local
+.env.*.local
+packages/*/.env
+packages/*/.env.*
+
+# Keep the example
+!.env.example
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Runtime data (SQLite DB, DOM snapshots)
+data/
+packages/*/data/
+
+# Logs & temp
+*.log
+npm-debug.log*
+logs/
+*.pid
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

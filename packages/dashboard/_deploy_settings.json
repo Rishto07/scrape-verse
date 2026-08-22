@@ -1,0 +1,9 @@
+{
+  "default-source": "local",
+  "sources": {
+    "local": {
+      "type": "local",
+      "path": "dist"
+    }
+  }
+}

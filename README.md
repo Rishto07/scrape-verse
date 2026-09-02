@@ -124,7 +124,7 @@ Glassmorphic dark UI with live WebSocket updates: health grid, event stream, sid
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Prerequisites###
 - **Node.js 20+**
 - **Bright Data account** — free credits available; hackathon code `wemakedevs` at [brdta.com/wemakedevs](https://brdta.com/wemakedevs)
 - **Groq API key** — free at [console.groq.com](https://console.groq.com)
